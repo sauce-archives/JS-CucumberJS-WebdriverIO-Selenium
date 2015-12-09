@@ -11,6 +11,7 @@ chai.should();
 
 module.exports = function() {
   // setup remote browser that wil be launched in saucelabs
+  console.log(global);
   global.client = wd.remote({
     desiredCapabilities: {
       browserName: process.env.browserName,
@@ -34,6 +35,8 @@ module.exports = function() {
       // initiliaze webdriver session
       global.client.init(function() {
         var sessionID = this.requestHandler.sessionID;
+
+        console.log(this);
 
         // global timeout
         this.timeoutsAsyncScript(10000);
