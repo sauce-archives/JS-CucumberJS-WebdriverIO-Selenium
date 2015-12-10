@@ -15,6 +15,9 @@
         "chai": "~1.10.0",
         "chai-as-promised": "~4.1.1",
         "saucelabs": "~0.1.1",
-        "selenium-launcher": "~1.1.11"
+        "selenium-launcher": "~1.1.11",
+        "grunt": "latest",
+        "grunt-parallel": "latest",
+        "grunt-shell": "latest"
     }
 }
