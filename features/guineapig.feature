@@ -1,7 +1,4 @@
 Feature: Guinea Pig page
-  In order to learn more about this years draft
-  As a User
-  I want to view the draft city homepage
 
   Scenario: Verify email input field
     Given I am on the sauce guinea pig page
